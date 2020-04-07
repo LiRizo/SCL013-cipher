@@ -1,14 +1,146 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+
+<div class="container">
+    <br>
+
+
+<section id="bienvenida">
+ <div>
+    <h1>Bienvenid@</h1>
+<br>
+
+<h2>
+   Esta app de cifrados esta hecha para revivir los mensajes cifrados antiguos <br>
+   dandole un vuelco romantico de manera digital
+</h2>
+<br>
+<h1>¿Que es el cifrado César?</h1>
+<br>
+
+<h2>es uno de los primeros métodos de cifrado conocidos. <br>
+    El emperador romano Julio César lo usaba para enviar <br>
+    órdenes secretas a sus generales en los campos de batalla.</h2>
+<br>
+
+    <img src="Images/cifradoCesar.JPG" alt="cifradoCesar">
+
+<h2>Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</h2>
+<br>
+<h2>Alfabeto cifrado:    D E F G H I J K L M N O P Q R S T U V W X Y Z A B C</h2>
+<br>
+
+<h2>Ejemplo: <br>
+    Mensaje sin cifrar  A M O R  <br>
+    Mensaje cifrado     D P R V  
+</h2>
+
+<br>
+<button id="cifrar" onclick="escogerCifrar();">Cifrar</button>
+<button id="descifrar" onclick="escogerDescifrar();">Descifrar</button>
+</div>
+</section>
+
+
+<br>
+
+
+
+<!--Codigo para enlazar a js-->
+
+<section id="cifrar1">
+<div class="row">
+    <div class="col-sm">
+    <div class="form-group">
+        <h3>Pon tu mensaje aquí:</h3>                  
+        <br>
+        <br>
+        <textarea type="text" id="textoCifrar1" rows="30" cols="100" class="form-control"></textarea>
+    </div>   
+</div>
+</div>
+<button id="cifrar" onclick="cifrarSms();">Cifrar</button>
+</section>
+
+
+<br>
+
+
+<section id="cifrar2">
+
+<div>
+    <h2>¿Desea escribir otro mensaje?</h2>
+    <br>
+
+
+
+
+    <button id="si" onclick="cifrarSmsDeVuelta();">Si</button>
+    <button id="no" onclick="regresarInicio1();">No</button>
+</div>
+
+</section>
+
+
+<br>
+
+
+<section id="descifrar1">
+<div>
+    <h3>Pon tu Codigo aquí:</h3>                  
+        <br>
+        <br>
+<textarea type="text" id="textodescifrar1" rows="30" cols="100" class="form-control"></textarea>
+
+<button id="descifrar" onclick="descifrarCod();">Descifrar</button>
+
+</div>
+</section>
+
+
+<br>
+
+
+<section id="descifrar2">
+<div>
+    <h2>cifrado</h2>
+    <br>
+
+    <h3>¿Desea descifrarlo por su cuenta?</h3>
+
+    <button id="si" onclick="regresarInicio2();">Si</button>
+    <button id="no" onclick="descifrarlo();">No</button>
+</div>
+</section>
+
+<section id="descifrar3">
+    <div>
+        <h2>Descifrado</h2>
+        <br>
+        <h3>¿Desea escribir un mensaje?</h3>
+        <br>
+
+    <button id="si" onclick="cifrarSmsV1();">Si</button>
+    <button id="no" onclick="regresarInicio3();">No</button>
+        
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
+    </section>
+
+
+<script src="app.js"></script>
+
+</div>
+</body>
 </html>
+
+
+
