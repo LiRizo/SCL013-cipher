@@ -9,8 +9,10 @@
 </head>
 <body>
 
-
+   <!-- <div id="pantalla2" class="im2">-->
 <div class="container">
+   
+  
     <br>
 
 
@@ -52,19 +54,19 @@
 
 
 <br>
-
-
-
 <!--Codigo para enlazar a js-->
-
 <section id="cifrar1">
 <div class="row">
     <div class="col-sm">
     <div class="form-group">
-        <h3>Pon tu mensaje aquí:</h3>                  
+        <h1>Ingresar mensaje aquí:</h1>
         <br>
         <br>
-        <textarea type="text" id="textoCifrar1" rows="30" cols="100" class="form-control"></textarea>
+        <h3>Debe encender el bloq Mayús. y no estan permitidas las ñ <br>
+            y los numeros para escribir el mensaje. </h3>                  
+        <br>
+        <br>
+        <textarea type="text" id="textoCifrar1" rows="30" cols="100" class="mensaje" placeholder="Pon tu mensaje aquí"></textarea>
     </div>   
 </div>
 </div>
@@ -78,6 +80,19 @@
 <section id="cifrar2">
 
 <div>
+    
+    <div class="row">
+        <div class="col-sm">
+        <div class="form-group">
+            <h3>Resultado del mensaje cifrado</h3>                  
+            <br>
+            <br>
+            <textarea type="text" id="resultado" rows="30" cols="100" class="mensajecifrado"></textarea>
+        </div>   
+    </div>
+    </div>
+    <br>
+    <br>
     <h2>¿Desea escribir otro mensaje?</h2>
     <br>
 
@@ -132,6 +147,11 @@
     <button id="si" onclick="cifrarSmsV1();">Si</button>
     <button id="no" onclick="regresarInicio3();">No</button>
         
+
+
+</div>
+
+
     </div>
     </section>
 
@@ -141,6 +161,5 @@
 </div>
 </body>
 </html>
-
 
 
