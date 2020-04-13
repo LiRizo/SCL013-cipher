@@ -42,8 +42,9 @@
                 </h2>
 
                 <br>
-                <button id="cifrar" onclick="escogerCifrar()">Cifrar</button>
-                <button id="descifrar" onclick="escogerDescifrar()">Descifrar</button>
+                <button id="escogerCifrar" onclick="escogerCifrar()"value="Cifrar"></button>
+               
+                <button id="escogerDescifrar" onclick="escogerDescifrar()"value="Descifrar"></button>
             </div>
         </section>
         <br>
@@ -61,13 +62,13 @@
                         <input type="number" value min="1" id="offset"class="offsetEdit">
                         <br>
                         <br>
-                        <textarea type="text" id="textoCifrar1" rows="30" cols="100" class="textoAmor"
+                        <textarea type="text1" id="textoCifrar1" rows="30" cols="100" class="textoAmor"
                             placeholder="Pon tu cifrado aquí"></textarea>
                     </div>
                 </div>
             </div>
-            <button id="cifrar" onclick="cifrarSms()">Cifrar</button>
-            <button onclick="limpiar()">Borrar</button>
+            <button id="cifrarSms" onclick="cifrarSms()"value="Cifrar"></button>
+            <button id="clean" onclick="limpiar()"value="Borrar"></button>
         </section>
         <br>
         <section id="cifrar2">
@@ -78,7 +79,7 @@
                             <h3>Resultado del mensaje cifrado</h3>
                             <br>
                             <br>
-                            <textarea type="text" id="resultado" rows="30" cols="100" class="textoAmor"></textarea>
+                            <textarea type="text2" id="resultado" rows="30" cols="100" class="textoAmor"></textarea>
                         </div>
                     </div>
                 </div>
@@ -86,8 +87,8 @@
                 <br>
                 <h2>¿Desea escribir otro mensaje?</h2>
                 <br>
-                <button id="si" onclick="cifrarSmsDeVuelta()">Si</button>
-                <button id="no" onclick="regresarInicio1()">No</button>
+                <button id="si" onclick="cifrarSmsDeVuelta()"value="Si"></button>
+                <button id="no" onclick="regresarInicio1()"value="No"></button>
             </div>
         </section>
         <br>
@@ -105,13 +106,13 @@
                         <input type="number" value min="1" id="offset1"class="offsetEdit">
                         <br>
                         <br>
-                        <textarea type="text" id="textoDescifrar" rows="30" cols="100" class="textoAmor"
+                        <textarea type="text3" id="textoDescifrar" rows="30" cols="100" class="textoAmor"
                             placeholder="Pon tu cifrado aquí"></textarea>
                     </div>
                 </div>
             </div>
-            <button id="cifrar" onclick="descifrar()">Descifrar</button>
-            <button onclick="limpiar()">Borrar</button>
+            <button id="descifrar" onclick="descifrar()"value="Descifrar"></button>
+            <button onclick="limpiar()"value="Borrar"></button>
         </section>
         <br>
         <section id="descifrar2">
@@ -125,13 +126,13 @@
                             y los numeros para escribir el mensaje. </h2>
                         <br>
                         <br>
-                        <textarea type="text" id="resultado2" rows="30" cols="100" class="textoAmor"></textarea>
+                        <textarea type="text4" id="resultado2" rows="30" cols="100" class="textoAmor"></textarea>
                     </div>
                 </div>
             </div>
                 <h3>¿Desea escribir un mensaje?</h3>
-                <button id="si" onclick="cifrarSmsV1()">Si</button>
-                <button id="no" onclick="regresarInicio2()">No</button>
+                <button id="si2" onclick="cifrarSmsV1()"value="Si"></button>
+                <button id="no2" onclick="regresarInicio2()"value="No"></button>
         </section>
     </div>
     <script src="index.js" type="module"></script>
