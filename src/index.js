@@ -1,165 +1,145 @@
-//Vamos a ver que sale XD
+import cipher from './cipher.js';
+alert("HolaMundo");
 
-/*Guia del abecedario
-
-A B C D E F G H I J K  L  M 
-0 1 2 3 4 5 6 7 8 9 10 11 12
-
-N  O  P  Q  R  S  T  U  V  W  X  Y  Z 
-13 14 15 16 17 18 19 20 21 22 23 24 25
-*/
-
-/* Formula ASCII 
-
-(X - 65 + n) % 26 + 65
-
-*/
-//codigoASCII => codigo0a25 => desloco => giro => codigoASCII
-/*---->>VEMOS!!
-function rot13(str){
-    var solution = '';
-    for (var i = 0; i < str.length; i++){
-      var asciiNum = str[i].charCodeAt();
-      if (asciiNum >= 65 && asciiNum <= 90){
-        solution += String.fromCharCode(asciiNum + 13);
-      } else if (asciiNum >= 78 && asciiNum <= 90){
-        solution += String.fromCharCode(asciiNum - 13);
-      } 
-    }
-    return solved; 
-  }
-*/
-
-function cifrado(message,nfijo){
-  const textoIngresado = texto.value;
-  textoCifrado.value = textoIngresado.split('').map(c=>{
-      let mayus = (c == c.toUpperCase()) 
-  })
-}
-
-//Botones, para movernos por nuestra pagina !!
 
 function escogerCifrar() {
+	let siguiente = document.getElementById("cifrar1");
+    siguiente.style.display = "block";
 
-
-let siguiente = document.getElementById("cifrar1");
-  siguiente.style.display = "block";
-
-
-
-  let bienvenida = document.getElementById("bienvenida");
-  bienvenida.style.display = "none";	
+    let bienvenida = document.getElementById("bienvenida");
+    bienvenida.style.display = "none";	
 }
 function escogerDescifrar() {
-let siguiente = document.getElementById("descifrar1");
-  siguiente.style.display = "block";
+	let siguiente = document.getElementById("descifrar1");
+    siguiente.style.display = "block";
 
-  let bienvenida = document.getElementById("bienvenida");
-  bienvenida.style.display = "none";	
+    let bienvenida = document.getElementById("bienvenida");
+    bienvenida.style.display = "none";	
 }
 
 //Parte para cifrar mensaje !!
 function cifrarSms(){
-
-
-let cifrarSmsActual = document.getElementById("cifrar1");
-cifrarSmsActual.style.display = "none";
+	
+  
+	let cifrarSmsActual = document.getElementById("cifrar1");
+	cifrarSmsActual.style.display = "none";
 
 // Esta parte es de los textarea
-let n=0;
-let n=document.getElementById("numero").value;
+
+const offset = parseInt(document.getElementById("offset").value);//->Esto es para el Offset
 
 let escrito = document.getElementById("textoCifrar1").value;
-let texto = "";
-let termino = "";
-let i;
+/*let resul = "";
+let x;
+let inCode = "";
+let inCode1 = "";
 
-for (i = 0; i < escrito.length; i++) {
-
-if (escrito.charCodeAt(i)>=65 && escrito.charCodeAt(i)<=90){
-  texto= (((escrito.charCodeAt(i)-65)+parseInt(n))%26)+65;
-}
-else if(escrito.charCodeAt(i)===32){
-  texto= 32;
-}
-termino += String.fromCharCode(texto);
-document.getElementById("resultado").innerHTML = termino;
-}
-// termina textarea 
-let resultadoDelSms = document.getElementById("cifrar2");
-resultadoDelSms.style.display = "block";
+for (x = 0; x < escrito.length; x++) {
+	
+	if (escrito.charCodeAt(x)>=65 && escrito.charCodeAt(x)<=90){
+		inCode= (((escrito.charCodeAt(x)-65)+offset)%26)+65;
+	}else if (escrito.charCodeAt(x)>= 97 && escrito.charCodeAt(x)<= 122){
+	inCode = String.fromCharCode((escrito.charCodeAt(x)- 97 + offset)% 26 + 97);
+	resul += inCode;
 }
 
-function cifrarSmsDeVuelta(){
-
-
-let resultadoDelSmsActual = document.getElementById("cifrar2");
-resultadoDelSmsActual.style.display = "none";
-
-let cifrarSms = document.getElementById("cifrar1");
-cifrarSms.style.display = "block";
+else if (escrito.charCodeAt(x) === 164){
+	escrito.charCodeAt(x) = ((escrito.charCodeAt(x)- 164 + offset)% 1 + 164);
+		inCode1 = String.fromCharCode(escrito.charCodeAt(x));
+		resul += inCode1;
 }
 
-
-function regresarInicio1(){
-
-
-let resultadoDelSmsActual = document.getElementById("cifrar2");
-resultadoDelSmsActual.style.display = "none";
-
-let inicio = document.getElementById("bienvenida");
-inicio.style.display = "block";
+else if(escrito.charCodeAt(x)===32){
+	inCode= 32;
 }
+	resul += String.fromCharCode(inCode);*/
+document.getElementById("resultado").innerHTML = resul;
+}
+    // termina textarea 
+	let resultadoDelSms = document.getElementById("cifrar2");
+	resultadoDelSms.style.display = "block";
+  //}
+
+  function limpiar() {
+	document.getElementById("textoCifrar1").value = "";
+	document.getElementById("offset").value = ""; 
+	document.getElementById("textoDescifrar").value = "";
+	document.getElementById("offset1").value = "";
+  }
+
+  function cifrarSmsDeVuelta(){
+	
+  
+	let resultadoDelSmsActual = document.getElementById("cifrar2");
+	resultadoDelSmsActual.style.display = "none";
+  
+	let cifrarSms = document.getElementById("cifrar1");
+	cifrarSms.style.display = "block";
+  }
+
+
+  function regresarInicio1(){
+	
+  
+	let resultadoDelSmsActual = document.getElementById("cifrar2");
+	resultadoDelSmsActual.style.display = "none";
+  
+	let inicio = document.getElementById("bienvenida");
+	inicio.style.display = "block";
+  }
 
 //Parte para descifrar mensaje !!
 
-function descifrarCod(){                       
+function descifrar(){                       
+	
+  
+	let recibirCodActual = document.getElementById("descifrar1");
+	recibirCodActual.style.display = "none";
+	
+	const offset1 = parseInt(document.getElementById("offset1").value);//->Esto es para el Offset
+
+let escrito = document.getElementById("textoDescifrar").value;
+/*let resul = "";
+let x;
+let inCode = "";
 
 
-let recibirCodActual = document.getElementById("descifrar1");
-recibirCodActual.style.display = "none";
-
-let inicioSiguiente = document.getElementById("descifrar2");
-inicioSiguiente.style.display = "block";
+for (x = 0; x < escrito.length; x++) {
+	
+	if (escrito.charCodeAt(x)>=65 && escrito.charCodeAt(x)<=90){
+		inCode= (((escrito.charCodeAt(x)-65)-offset1)%26)+65;
+	}else if (escrito.charCodeAt(x)>= 97 && escrito.charCodeAt(x)<= 122){
+	inCode = String.fromCharCode((escrito.charCodeAt(x)- 97 - offset1)% 26 + 97);
+	resul += inCode;	
+}else if(escrito.charCodeAt(x)===164){
+	inCode= 164;
+}else if(escrito.charCodeAt(x)===32){
+	inCode= 32;
 }
+	resul += String.fromCharCode(inCode);*/
+document.getElementById("resultado2").innerHTML = resul;
+//}
+  
+	let inicioSiguiente = document.getElementById("descifrar2");
+	inicioSiguiente.style.display = "block";
+  }
 
-function regresarInicio2(){
-
-
-let volverInicioActual = document.getElementById("descifrar2");
-volverInicioActual.style.display = "none";
-
-let inicioSiguiente = document.getElementById("bienvenida");
-inicioSiguiente.style.display = "block";
-}
-
-function descifrarlo(){
-
-
-let descifrarAtual = document.getElementById("descifrar2");
-descifrarAtual.style.display = "none";
-
-let descifradoSiguiente = document.getElementById("descifrar3");
-descifradoSiguiente.style.display = "block";
-}
-
-function cifrarSmsV1(){
+  function cifrarSmsV1(){
+	
+	let descifradoAtual = document.getElementById("descifrar2");
+	descifradoAtual.style.display = "none";
+  
+	let cifrarSiguiente = document.getElementById("cifrar1");
+	cifrarSiguiente.style.display = "block";
+  }
 
 
-let descifradoAtual = document.getElementById("descifrar3");
-descifradoAtual.style.display = "none";
-
-let cifrarSiguiente = document.getElementById("cifrar1");
-cifrarSiguiente.style.display = "block";
-}
-
-
-function regresarInicio3(){
-
-
-let volverInicioActual = document.getElementById("descifrar3");
-volverInicioActual.style.display = "none";
-
-let inicioSiguiente = document.getElementById("bienvenida");
-inicioSiguiente.style.display = "block";
-}
+  function regresarInicio2(){
+	
+	let volverInicioActual = document.getElementById("descifrar2");
+	volverInicioActual.style.display = "none";
+  
+	let inicioSiguiente = document.getElementById("bienvenida");
+	inicioSiguiente.style.display = "block";
+  }
+  console.log(cipher);

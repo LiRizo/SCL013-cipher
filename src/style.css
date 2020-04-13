@@ -1,0 +1,119 @@
+
+* {
+    margin: auto;
+    padding: 0%; 
+}
+
+body {
+    background-color: rgb(48, 41, 41);
+    background-image: url('Images/herculesGrandeEdit.jpg');
+    background-repeat: no-repeat;  
+    background-position: center;
+    /*background-attachment: fixed;*/
+    z-index: -1;
+    font-family: 'Macondo Swash Caps', cursive;
+    /*word-wrap: break-word;*/
+}
+
+.container {
+    content: "";
+    background-image: url('Images/transparencia.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color: rgba(255, 99, 71, 0.267);
+    position: fixed; z-index:1;left:25em;top:25px;
+    opacity:0.5;
+    border: 4px dashed rgb(194, 97, 68);*/
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    padding: 50px;
+    vertical-align: center;
+    margin: 5em auto;
+  }
+  
+  
+  #cifrar1 {
+      z-index: 2;
+    width: 1000px;
+    height: 1000px;
+    /*padding: 50px;*/
+    vertical-align: center;
+    margin: 5em auto; 
+    
+  }
+
+
+h1, h2, h3 {
+    z-index: 3;
+    margin:auto; 
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+}
+h4 {
+    color: rgb(218, 218, 218);
+}
+button {
+    z-index: 4;
+    padding: 15px 32px;
+   /*width: 50%;
+    text-align: center;*/
+    font-family:'Macondo Swash Caps', cursive;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-left:250px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-content: center;
+   /* vertical-align: middle;*/
+}
+
+.textoAmor {
+   opacity:0.7; 
+}
+.offsetEdit {
+    opacity:0.7; 
+ }
+
+/*Para que la persona no lo edite*/
+
+#textoCifrar1 {
+    resize: none;
+
+}
+
+/* con esto puedo ver solo la Setion que deseo (none si no quiero que se vea auto para la que quiero que se vea)*/
+
+#bienvenida{
+
+    display: auto;
+ }
+
+#cifrar1 {
+
+    display: none;
+}
+
+#cifrar2 {
+
+    display: none;
+}
+
+#descifrar1 {
+
+    display: none;
+}
+
+#descifrar2 {
+
+    display: none;
+}
+
+#descifrar3 {
+
+    display: none;
+}
+
+
