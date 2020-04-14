@@ -9,11 +9,11 @@ describe('cipher', () => {
 
   describe('cipher.encode', () => {
 
-    test('should be a function', () => {
+    test('cifrarSms', () => {
       expect(typeof cipher.encode).toBe('function');
     });
     test('should return "HIJKLMNOPQRSTUVWXYZABCDEFG" for "ABCDEFGHIJKLMNOPQRSTUVWXYZ" with offset 33', () => {
-      //completa este test!
+      expect(typeof cipher.encode).toBe('function');
     });
 
     
@@ -21,12 +21,12 @@ describe('cipher', () => {
 
   describe('cipher.decode', () => {
 
-    test('should be a function', () => {
+    test('descifrar', () => {
       expect(typeof cipher.decode).toBe('function');
     });
 
     test('should return "ABCDEFGHIJKLMNOPQRSTUVWXYZ" for "HIJKLMNOPQRSTUVWXYZABCDEFG" with offset 33', () => {
-      //completa este test!
+      expect(typeof cipher.decode).toBe('function');
     });
 
   });

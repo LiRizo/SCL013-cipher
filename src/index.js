@@ -1,6 +1,6 @@
 import cipher from './cipher.js';
 
-document.getElementById("escogerCifrar").addEventListener("click",escogerCifrar);
+document.getElementById("escogerCifrar1").addEventListener("click",escogerCifrar);
 function escogerCifrar() {
 	let siguienteC = document.getElementById("cifrar1");
     siguienteC.style.display = "block";
@@ -8,7 +8,7 @@ function escogerCifrar() {
     bienvenida.style.display = "none";	
 }
 
-document.getElementById("escogerDescifrar").addEventListener("click",escogerDescifrar);
+document.getElementById("escogerDescifrar1").addEventListener("click",escogerDescifrar);
 function escogerDescifrar() {
 	let siguienteD = document.getElementById("descifrar1");
     siguienteD.style.display = "block";
