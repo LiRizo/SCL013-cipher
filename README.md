@@ -10,7 +10,7 @@
 * [6. Proceso del proyecto](#6-Proceso-del-proyecto)
 * [7. Diseño](#7-Diseño)
 * [8. ¿CÓMO FUNCIONA?](#8-¿CÓMO-FUNCIONA?)
-* [9. LInks](#9-LInks)
+* [9. Links](#9-Links)
 
 ***
 
@@ -60,26 +60,34 @@ Prototipos de flujos de ‘Baja Fidelidad’
 
 ## 5. ¿De que se trata nuestra página web?
 
-Muchas veces las personas se preguntan ’¿Si es posible encontrar el amor en internet?’, y la verdad no lo sabemos, pero sí sabemos que es posible renacer el amor en internet . De eso mismo se trata nuestra página, es un nuevo proyecto para encontrarse como pareja, como amigos o ¿por qué no?, de volver a enamorar como antes. Por eso utilizando el antiguo método del cifrado César, volvemos a la viejas técnicas de mensajes secretos.
+Muchas veces las personas se preguntan ’¿Si es posible encontrar el amor en internet?’, y la verdad no lo sabemos, pero sí sabemos que es posible renacer el amor en internet . De eso mismo se trata nuestra página, es un nuevo proyecto para encontrarse como pareja, de volver a enamorar como antes. juegos entre amigos  ¿por qué no? Utilizando el antiguo método del cifrado César, volvemos a la viejas técnicas de mensajes secretos.
 
 
 ### ¿A qué usuarios está dirigido?
 
 
 ⇢Principalmente a usuarios desde: 13 a la edad que quieran, es un producto apto para todo público.
-⇢Personas que quieren revivir su amor de una manera diferente
+
+⇢Personas que quieren revivir su amor de una manera diferente.
+
 ⇢Persona que le atraiga el cifrado césar.
 
 ### Problemas:
-⇢Monotonía
-⇢Cansado de no conseguir algo diferente
+
+⇢Monotonía.
+
+⇢Cansado de no conseguir algo diferente.
 
 
 ### Necesidad: 
-⇢De desenchufarse de lo que ya estan acostumbrados
-⇢De romper las estructuras modernas
-⇢ De innovar y cambiar la rutina
-⇢ Revivir la relación
+
+⇢De desenchufarse de lo que ya estan acostumbrados.
+
+⇢De romper las estructuras modernas.
+
+⇢ De hacer algo diferente y cambiar la rutina.
+
+⇢ Revivir la relación.
 
 
 ## 6. Proceso del proyecto
@@ -100,7 +108,7 @@ font-family: 'Caesar Dressing', cursive;
 <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap" rel="stylesheet">
 
 * Font definitiva, elegida ya que da la sensacion de la epoca: font-family: 'Macondo Swash Caps', cursive;
-<link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap" rel="stylesheet">
+ [link]<link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap" rel="stylesheet">
 
 ![diseño1](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/WhatsApp%20Image%202020-04-04%20at%2019.10.26.jpeg)![diseño2](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/WhatsApp%20Image%202020-04-04%20at%2019.18.22.jpeg)![diseño3](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/RosaPilares.jpg)![diseño4](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/architecture.jpg)![diseño5](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Roma1.png)
 
@@ -140,7 +148,7 @@ Mensajería secreta para toda persona que le quiera mandar a su enamorado mensaj
 
 
 
-## 9. LInks
+## 9. Links
 
 
 * https://lirizo.github.io/SCL013-cipher/src/index.html
