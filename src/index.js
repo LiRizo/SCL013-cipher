@@ -25,11 +25,12 @@ function cifrarSms(){
 	cifrarSmsActual.style.display = "none";
 	let resultadoDelSms = document.getElementById("cifrar2");
 	resultadoDelSms.style.display = "block";
-	// Esta parte es de los textarea
+	// Esta parte es de los textarea,cipher
 const offset = parseInt(document.getElementById("offset").value);//->Esto es para el Offset
 let texto = document.getElementById("textoCifrar1").value;
 document.getElementById("resultado").innerHTML = cipher.encode (offset,texto);
  }
+ //fin del cipher encode
  
   document.getElementById("clean").addEventListener("click",limpiar);
   function limpiar(){   
@@ -65,11 +66,12 @@ function descifrar(){
 	recibirCodActual.style.display = "none";
 	let inicioSiguiente = document.getElementById("descifrar2");
 	inicioSiguiente.style.display = "block";
-	// Esta parte es de los textarea
+	// Esta parte es de los textarea,cipher
 	const offset1 = parseInt(document.getElementById("offset1").value);//->Esto es para el Offset
 let texto1 = document.getElementById("textoDescifrar").value;
 document.getElementById("resultado2").innerHTML = cipher.decode (offset1,texto1);
   }
+   //fin del cipher decode
 
   document.getElementById("si2").addEventListener("click",cifrarSmsV1);
   function cifrarSmsV1(){
