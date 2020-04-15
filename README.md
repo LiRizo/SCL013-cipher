@@ -71,24 +71,24 @@ Muchas veces las personas se preguntan ’¿Si es posible encontrar el amor en i
 ### ¿A qué usuarios está dirigido?
 
 
-⇢Principalmente a usuarios desde: 13 a la edad que quieran, es un producto apto para todo público.
+⇢ Principalmente a usuarios desde: 13 a la edad que quieran, es un producto apto para todo público.
 
-⇢Personas que quieren revivir su amor de una manera diferente.
+⇢ Personas que quieren revivir su amor de una manera diferente.
 
-⇢Persona que le atraiga el cifrado césar.
+⇢ Persona que le atraiga el cifrado césar.
 
 ### Problemas:
 
-⇢Monotonía.
+⇢ Monotonía.
 
-⇢Cansado de no conseguir algo diferente.
+⇢ Cansado de no conseguir algo diferente.
 
 
 ### Necesidad: 
 
-⇢De desenchufarse de lo que ya estan acostumbrados.
+⇢ De desenchufarse de lo que ya estan acostumbrados.
 
-⇢De romper las estructuras modernas.
+⇢ De romper las estructuras modernas.
 
 ⇢ De hacer algo diferente y cambiar la rutina.
 
@@ -119,7 +119,7 @@ font-family: 'Caesar Dressing', cursive;
 
 ### Font definitiva:
 
-* La font definitiva, elegida ya que da la sensacion de la epoca.
+* La font definitiva fue elegida ya que da la sensacion de la epoca.
 
 font-family: 'Macondo Swash Caps', cursive;
 - [Macondo](https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap)
