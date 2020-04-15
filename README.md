@@ -38,6 +38,10 @@ Ejemplo:  Mensaje    AMOR
 Planificación del proyecto 
 
 Empezamos armando nuestro ‘Trello’ 
+
+![Trello](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/TRELLO.png)
+
+
 Prototipos de flujos de ‘Baja Fidelidad’
 
 
@@ -94,7 +98,7 @@ Muchas veces las personas se preguntan ’¿Si es posible encontrar el amor en i
 ## 6. Proceso del proyecto
 
 
-*Diseño de experiencia de usuario UX.
+* Diseño de experiencia de usuario UX.
 
 
 ![Proceso1](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario1.jpeg)![Proceso2](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario2.jpeg)![Proceso3](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario3.jpeg)![Proceso4](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario4.jpeg)![Proceso5](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario5.jpeg)
@@ -109,7 +113,7 @@ font-family: 'Alegreya Sans SC', sans-serif;
 font-family: 'Expletus Sans', cursive;
 - [Expletus Sans](https://fonts.googleapis.com/css2?family=Expletus+Sans:ital@1&display=swap)
 
-font-family: 'Caesar Dressing', cursive;
+### font-family: 'Caesar Dressing', cursive;
 - [Caesar Dressing](https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap)
 
 * Font definitiva, elegida ya que da la sensacion de la epoca: font-family: 'Macondo Swash Caps', cursive;
