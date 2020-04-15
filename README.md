@@ -40,6 +40,7 @@ Planificación del proyecto
 Empezamos armando nuestro ‘Trello’ 
 Prototipos de flujos de ‘Baja Fidelidad’
 
+
 ![Prototipov1](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Prototipov1L.jpg)![Prototipov2](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/PrototipoCipher1.jpeg)![Prototipov3](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/PrototipoCipher.jpeg)
 
 ## 3. Diagrama de flujo
@@ -93,7 +94,9 @@ Muchas veces las personas se preguntan ’¿Si es posible encontrar el amor en i
 ## 6. Proceso del proyecto
 
 
-Diseño de experiencia de usuario UX.
+*Diseño de experiencia de usuario UX.
+
+
 ![Proceso1](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario1.jpeg)![Proceso2](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario2.jpeg)![Proceso3](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario3.jpeg)![Proceso4](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario4.jpeg)![Proceso5](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario5.jpeg)
 
 ## 7. Diseño
@@ -102,14 +105,15 @@ Nos basamos en el diseño en el estilo ‘Romano’. Buscando muchas paletas de 
 Font: “ Posibles “
 font-family: 'Alegreya Sans SC', sans-serif;
 - [Alegreya Sans SC](https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,500;1,700&display=swap)
-<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
+
 font-family: 'Expletus Sans', cursive;
-<link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital@1&display=swap" rel="stylesheet">
+- [Expletus Sans](https://fonts.googleapis.com/css2?family=Expletus+Sans:ital@1&display=swap)
+
 font-family: 'Caesar Dressing', cursive;
-<link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap" rel="stylesheet">
+- [Caesar Dressing](https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap)
 
 * Font definitiva, elegida ya que da la sensacion de la epoca: font-family: 'Macondo Swash Caps', cursive;
-- [Macondo](https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap" rel="stylesheet)
+- [Macondo](https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap)
 
 
 
