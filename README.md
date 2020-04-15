@@ -106,17 +106,22 @@ Muchas veces las personas se preguntan ’¿Si es posible encontrar el amor en i
 ## 7. Diseño
 Nos basamos en el diseño en el estilo ‘Romano’. Buscando muchas paletas de colores, pero nos quedamos con los colores más cálidos, que hacen más referencia al amor. Así el usuario se encuentra con lo que le estamos ofreciendo desde el primer momento.
 
-Font: “ Posibles “
+### Fonts Posibles:
+
 font-family: 'Alegreya Sans SC', sans-serif;
 - [Alegreya Sans SC](https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,500;1,700&display=swap)
 
 font-family: 'Expletus Sans', cursive;
 - [Expletus Sans](https://fonts.googleapis.com/css2?family=Expletus+Sans:ital@1&display=swap)
 
-### font-family: 'Caesar Dressing', cursive;
+font-family: 'Caesar Dressing', cursive;
 - [Caesar Dressing](https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap)
 
-* Font definitiva, elegida ya que da la sensacion de la epoca: font-family: 'Macondo Swash Caps', cursive;
+### Font definitiva:
+
+* La font definitiva, elegida ya que da la sensacion de la epoca.
+
+font-family: 'Macondo Swash Caps', cursive;
 - [Macondo](https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap)
 
 
