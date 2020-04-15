@@ -35,14 +35,14 @@ Ejemplo:  Mensaje    AMOR
 
 ## 2. Planificación del proyecto 
 
-Planificación del proyecto 
+### Planificación del proyecto 
 
-Empezamos armando nuestro ‘Trello’ 
+### Empezamos armando nuestro ‘Trello’ 
 
 ![Trello](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/TRELLO.png)
 
 
-Prototipos de flujos de ‘Baja Fidelidad’
+### Prototipos de flujos de ‘Baja Fidelidad’
 
 
 ![Prototipov1](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Prototipov1L.jpg)![Prototipov2](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/PrototipoCipher1.jpeg)![Prototipov3](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/PrototipoCipher.jpeg)
