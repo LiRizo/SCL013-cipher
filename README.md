@@ -86,7 +86,7 @@ Muchas veces las personas se preguntan ’¿Si es posible encontrar el amor en i
 
 
 Diseño de experiencia de usuario UX.
-[Proceso1](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario1.jpeg)[Proceso2](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario2.jpeg)[Proceso3](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario3.jpeg)[Proceso4](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario4.jpeg)[Proceso5](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario5.jpeg)
+![Proceso1](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario1.jpeg)![Proceso2](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario2.jpeg)![Proceso3](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario3.jpeg)![Proceso4](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario4.jpeg)![Proceso5](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario5.jpeg)
 
 ## 7. Diseño
 Nos basamos en el diseño en el estilo ‘Romano’. Buscando muchas paletas de colores, pero nos quedamos con los colores más cálidos, que hacen más referencia al amor. Así el usuario se encuentra con lo que le estamos ofreciendo desde el primer momento.
@@ -102,15 +102,15 @@ font-family: 'Caesar Dressing', cursive;
 * Font definitiva, elegida ya que da la sensacion de la epoca: font-family: 'Macondo Swash Caps', cursive;
 <link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap" rel="stylesheet">
 
-[diseño1](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/WhatsApp%20Image%202020-04-04%20at%2019.10.26.jpeg)[diseño2](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/WhatsApp%20Image%202020-04-04%20at%2019.18.22.jpeg)[diseño3](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/RosaPilares.jpg)[diseño4](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/architecture.jpg)[diseño5](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Roma1.png)
+![diseño1](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/WhatsApp%20Image%202020-04-04%20at%2019.10.26.jpeg)![diseño2](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/WhatsApp%20Image%202020-04-04%20at%2019.18.22.jpeg)![diseño3](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/RosaPilares.jpg)![diseño4](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/architecture.jpg)![diseño5](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Roma1.png)
 
 Prototipo de página con sus colores
 
-[diseño6](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/WhatsApp%20Image%202020-04-02%20at%2023.15.42.jpeg)
+![diseño6](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/WhatsApp%20Image%202020-04-02%20at%2023.15.42.jpeg)
 
 ### Producto final de diseño
 
-[diseño7](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Final.JPG)
+![diseño7](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Final.JPG)
 ***
 
 ## 8. ¿CÓMO FUNCIONA?
