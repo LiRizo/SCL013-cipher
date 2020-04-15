@@ -20,6 +20,7 @@
 
 En criptografía, el cifrado César, también conocido como cifrado por desplazamiento, código de César o desplazamiento de César, es una de las técnicas de cifrado más simples y más usadas. Es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto. Por ejemplo, con un desplazamiento de 3, la A sería sustituida por la D (situada 3 lugares a la derecha de la A), la B sería reemplazada por la E, etc. Este método debe su nombre a Julio César, que lo usaba para comunicarse con sus generales.
 El cifrado César muchas veces puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13. Como todos los cifrados de sustitución alfabética simple, el cifrado César se descifra con facilidad y en la práctica no ofrece mucha seguridad en la comunicación.
+
 La transformación se puede representar alineando dos alfabetos; el alfabeto cifrado es un alfabeto normal que está desplazado un número determinado de posiciones hacia la izquierda o la derecha. Por ejemplo, aquí el cifrado César está usando un desplazamiento de 3 espacios hacia la derecha:
 
 ![caeser-cipher](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/cifradoCesar.png)
@@ -29,6 +30,7 @@ Ejemplo:  Mensaje    AMOR
         Cifrado      DPRU
 
 * Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
 * Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 
 
@@ -45,7 +47,8 @@ Ejemplo:  Mensaje    AMOR
 ### Prototipos de flujos de ‘Baja Fidelidad’
 
 
-![Prototipov1](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Prototipov1L.jpg)![Prototipov2](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/PrototipoCipher1.jpeg)![Prototipov3](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/PrototipoCipher.jpeg)
+![Prototipov1](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/prototipov1LyR.jpg)
+![Prototipov2](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/PrototipoCipher.jpeg)
 
 ## 3. Diagrama de flujo
 
@@ -54,9 +57,6 @@ Ejemplo:  Mensaje    AMOR
 ## 4. Prototipo en Invisionapp interactivo
 
 ![Prototipov5](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/01-Inicio.jpg)
-![Prototipov6](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/08-CifradoCesar.JPG)
-![Prototipov7](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/03-EscribeSMS.jpg)
-![Prototipov8](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/04-SmsCifrado.jpg)
 
 ¿Quieres probarlo?
 
@@ -100,10 +100,10 @@ Muchas veces las personas se preguntan ’¿Si es posible encontrar el amor en i
 
 * Diseño de experiencia de usuario UX.
 
-
-![Proceso1](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario1.jpeg)![Proceso2](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario2.jpeg)![Proceso3](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario3.jpeg)![Proceso4](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario4.jpeg)![Proceso5](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Experiencia%20del%20Usuario5.jpeg)
+![Proceso1](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Usuario1.jpg)
 
 ## 7. Diseño
+
 Nos basamos en el diseño en el estilo ‘Romano’. Buscando muchas paletas de colores, pero nos quedamos con los colores más cálidos, que hacen más referencia al amor. Así el usuario se encuentra con lo que le estamos ofreciendo desde el primer momento.
 
 ### Fonts Posibles:
@@ -126,9 +126,13 @@ font-family: 'Macondo Swash Caps', cursive;
 
 
 
-![diseño1](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/WhatsApp%20Image%202020-04-04%20at%2019.10.26.jpeg)![diseño2](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/WhatsApp%20Image%202020-04-04%20at%2019.18.22.jpeg)![diseño3](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/RosaPilares.jpg)![diseño4](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/architecture.jpg)![diseño5](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Roma1.png)
+![diseño1](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/pruebas.JPG)
+![diseño2](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/RosaPilares.jpg)
+![diseño3](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/architecture.jpg)
+![diseño4](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Roma1.png)
 
 Prototipo de página con sus colores
+
 
 ![diseño6](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/WhatsApp%20Image%202020-04-02%20at%2023.15.42.jpeg)
 
