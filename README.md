@@ -108,7 +108,9 @@ font-family: 'Caesar Dressing', cursive;
 <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap" rel="stylesheet">
 
 * Font definitiva, elegida ya que da la sensacion de la epoca: font-family: 'Macondo Swash Caps', cursive;
- [link]<link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap" rel="stylesheet">
+
+ ![link](<link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap" rel="stylesheet">)
+
 
 ![diseño1](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/WhatsApp%20Image%202020-04-04%20at%2019.10.26.jpeg)![diseño2](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/WhatsApp%20Image%202020-04-04%20at%2019.18.22.jpeg)![diseño3](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/RosaPilares.jpg)![diseño4](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/architecture.jpg)![diseño5](https://github.com/LiRizo/SCL013-cipher/blob/master/src/Images/Roma1.png)
 
